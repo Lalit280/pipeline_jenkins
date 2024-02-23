@@ -13,8 +13,8 @@ pipeline {
          {
            steps
 		{
-		sh "demo.java"
-		sh "main.py"
+		sh "jav demo.java"
+		sh "python3 main.py"
 		}
 	 }
    }
